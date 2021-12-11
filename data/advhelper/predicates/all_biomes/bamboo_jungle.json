@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "player": {
+        "advancements": {
+          "minecraft:adventure/adventuring_time": {
+            "minecraft:bamboo_jungle": true
+          }
+        }
+      }
+    }
+  }
+  
