@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "player": {
+        "advancements": {
+          "minecraft:nether/explore_nether": {
+            "minecraft:warped_forest": true
+          }
+        }
+      }
+    }
+  }
+  
