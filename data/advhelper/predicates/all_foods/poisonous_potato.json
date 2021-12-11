@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "player": {
+        "advancements": {
+          "minecraft:husbandry/balanced_diet": {
+            "poisonous_potato": true
+          }
+        }
+      }
+    }
+  }
+  
