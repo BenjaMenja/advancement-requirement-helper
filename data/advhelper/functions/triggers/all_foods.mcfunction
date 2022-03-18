@@ -64,6 +64,8 @@ execute unless entity @s[predicate=advhelper:all_foods/raw_chicken] run tellraw 
 
 execute unless entity @s[predicate=advhelper:all_foods/raw_cod] run tellraw @s {"text":"- Raw Cod","color":"red"}
 
+execute unless entity @s[predicate=advhelper:all_foods/raw_mutton] run tellraw @s {"text":"- Raw Mutton","color":"red"}
+
 execute unless entity @s[predicate=advhelper:all_foods/raw_porkchop] run tellraw @s {"text":"- Raw Porkchop","color":"red"}
 
 execute unless entity @s[predicate=advhelper:all_foods/raw_rabbit] run tellraw @s {"text":"- Raw Rabbit","color":"red"}
