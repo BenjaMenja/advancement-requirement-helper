@@ -5,6 +5,7 @@ scoreboard objectives add two.by.two trigger
 scoreboard objectives add all.cats trigger
 scoreboard objectives add all.foods trigger
 scoreboard objectives add adv.help trigger
+scoreboard objectives add adv.success dummy
 
 scoreboard players add @a nether.biomes 0
 scoreboard players add @a all.monsters 0
