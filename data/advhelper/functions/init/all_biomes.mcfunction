@@ -18,6 +18,11 @@ execute if score @s adv.success matches 1 run advancement grant @s only advhelpe
 execute if score @s adv.success matches 1 run advancement grant @s only minecraft:adventure/adventuring_time minecraft:birch_forest
 scoreboard players set @s adv.success 0
 
+execute store success score @s adv.success run advancement revoke @s only minecraft:adventure/adventuring_time minecraft:cherry_grove
+execute if score @s adv.success matches 1 run advancement grant @s only advhelper:adventuring_time cherry_grove
+execute if score @s adv.success matches 1 run advancement grant @s only minecraft:adventure/adventuring_time minecraft:cherry_grove
+scoreboard players set @s adv.success 0
+
 execute store success score @s adv.success run advancement revoke @s only minecraft:adventure/adventuring_time minecraft:cold_ocean
 execute if score @s adv.success matches 1 run advancement grant @s only advhelper:adventuring_time cold_ocean
 execute if score @s adv.success matches 1 run advancement grant @s only minecraft:adventure/adventuring_time minecraft:cold_ocean

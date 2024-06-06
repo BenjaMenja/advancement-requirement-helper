@@ -1,6 +1,15 @@
 {
   "criteria": {
+    "armadillo": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+            "type": "minecraft:armadillo"
+          }
+        }
+      },
     "axolotl": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -11,10 +20,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "bee": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -25,10 +34,24 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
+    },
+    "camel": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:camel"
+            }
+          }
+        ]
+      }
     },
     "cat": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -39,10 +62,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "chicken": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -53,10 +76,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "cow": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -67,10 +90,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "donkey": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -81,10 +104,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "fox": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -95,10 +118,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "frog": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": [
           {
@@ -118,10 +141,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "goat": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -132,10 +155,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "hoglin": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -146,10 +169,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "horse": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -160,10 +183,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "llama": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -174,10 +197,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "mooshroom": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -188,10 +211,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "mule": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -202,10 +225,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "ocelot": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -216,10 +239,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "panda": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -230,10 +253,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "pig": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -244,10 +267,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "rabbit": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -258,10 +281,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "sheep": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -272,10 +295,24 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
+    },
+    "sniffer": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:sniffer"
+            }
+          }
+        ]
+      }
     },
     "strider": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -286,10 +323,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "turtle": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": [
           {
@@ -309,10 +346,10 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     },
     "wolf": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "child": [
           {
@@ -323,8 +360,7 @@
             }
           }
         ]
-      },
-      "trigger": "minecraft:bred_animals"
+      }
     }
   },
   "requirements": [
@@ -393,6 +429,15 @@
     ],
     [
       "frog"
+    ],
+    [
+      "armadillo"
+    ],
+    [
+      "camel"
+    ],
+    [
+      "sniffer"
     ]
   ]
 }

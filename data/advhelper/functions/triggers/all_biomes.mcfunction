@@ -12,6 +12,8 @@ execute unless entity @s[advancements={advhelper:adventuring_time={beach=true}}]
 
 execute unless entity @s[advancements={advhelper:adventuring_time={birch_forest=true}}] run tellraw @s {"text":"- Birch Forest","color":"red"}
 
+execute unless entity @s[advancements={advhelper:adventuring_time={cherry_grove=true}}] run tellraw @s {"text":"- Cherry Grove","color":"red"}
+
 execute unless entity @s[advancements={advhelper:adventuring_time={cold_ocean=true}}] run tellraw @s {"text":"- Cold Ocean","color":"red"}
 
 execute unless entity @s[advancements={advhelper:adventuring_time={dark_forest=true}}] run tellraw @s {"text":"- Dark Forest","color":"red"}

@@ -64,6 +64,22 @@
       },
       "trigger": "minecraft:location"
     },
+    "cherry_grove": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:cherry_grove"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
     "cold_ocean": {
       "conditions": {
         "player": [
@@ -989,6 +1005,9 @@
     ],
     [
       "deep_dark"
+    ],
+    [
+      "cherry_grove"
     ]
   ]
 }

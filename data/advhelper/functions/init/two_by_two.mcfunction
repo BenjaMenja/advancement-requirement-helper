@@ -1,3 +1,8 @@
+execute store success score @s adv.success run advancement revoke @s only minecraft:husbandry/bred_all_animals minecraft:armadillo
+execute if score @s adv.success matches 1 run advancement grant @s only advhelper:bred_all_animals armadillo
+execute if score @s adv.success matches 1 run advancement grant @s only minecraft:husbandry/bred_all_animals minecraft:armadillo
+scoreboard players set @s adv.success 0
+
 execute store success score @s adv.success run advancement revoke @s only minecraft:husbandry/bred_all_animals minecraft:axolotl
 execute if score @s adv.success matches 1 run advancement grant @s only advhelper:bred_all_animals axolotl
 execute if score @s adv.success matches 1 run advancement grant @s only minecraft:husbandry/bred_all_animals minecraft:axolotl
@@ -6,6 +11,11 @@ scoreboard players set @s adv.success 0
 execute store success score @s adv.success run advancement revoke @s only minecraft:husbandry/bred_all_animals minecraft:bee
 execute if score @s adv.success matches 1 run advancement grant @s only advhelper:bred_all_animals bee
 execute if score @s adv.success matches 1 run advancement grant @s only minecraft:husbandry/bred_all_animals minecraft:bee
+scoreboard players set @s adv.success 0
+
+execute store success score @s adv.success run advancement revoke @s only minecraft:husbandry/bred_all_animals minecraft:camel
+execute if score @s adv.success matches 1 run advancement grant @s only advhelper:bred_all_animals camel
+execute if score @s adv.success matches 1 run advancement grant @s only minecraft:husbandry/bred_all_animals minecraft:camel
 scoreboard players set @s adv.success 0
 
 execute store success score @s adv.success run advancement revoke @s only minecraft:husbandry/bred_all_animals minecraft:cat
@@ -91,6 +101,11 @@ scoreboard players set @s adv.success 0
 execute store success score @s adv.success run advancement revoke @s only minecraft:husbandry/bred_all_animals minecraft:sheep
 execute if score @s adv.success matches 1 run advancement grant @s only advhelper:bred_all_animals sheep
 execute if score @s adv.success matches 1 run advancement grant @s only minecraft:husbandry/bred_all_animals minecraft:sheep
+scoreboard players set @s adv.success 0
+
+execute store success score @s adv.success run advancement revoke @s only minecraft:husbandry/bred_all_animals minecraft:sniffer
+execute if score @s adv.success matches 1 run advancement grant @s only advhelper:bred_all_animals sniffer
+execute if score @s adv.success matches 1 run advancement grant @s only minecraft:husbandry/bred_all_animals minecraft:sniffer
 scoreboard players set @s adv.success 0
 
 execute store success score @s adv.success run advancement revoke @s only minecraft:husbandry/bred_all_animals minecraft:strider

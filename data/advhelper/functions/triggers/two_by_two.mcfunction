@@ -4,9 +4,13 @@ execute if entity @s[advancements={minecraft:husbandry/bred_all_animals=true}] r
 
 execute if entity @s[advancements={minecraft:husbandry/bred_all_animals=false}] run tellraw @s {"text":"Missing Animals:","color":"aqua"}
 
+execute unless entity @s[advancements={advhelper:bred_all_animals={armadillo=true}}] run tellraw @s {"text":"- Armadillo","color":"red"}
+
 execute unless entity @s[advancements={advhelper:bred_all_animals={axolotl=true}}] run tellraw @s {"text":"- Axolotl","color":"red"}
 
 execute unless entity @s[advancements={advhelper:bred_all_animals={bee=true}}] run tellraw @s {"text":"- Bee","color":"red"}
+
+execute unless entity @s[advancements={advhelper:bred_all_animals={camel=true}}] run tellraw @s {"text":"- Camel","color":"red"}
 
 execute unless entity @s[advancements={advhelper:bred_all_animals={cat=true}}] run tellraw @s {"text":"- Cat","color":"red"}
 
@@ -39,6 +43,8 @@ execute unless entity @s[advancements={advhelper:bred_all_animals={pig=true}}] r
 execute unless entity @s[advancements={advhelper:bred_all_animals={rabbit=true}}] run tellraw @s {"text":"- Rabbit","color":"red"}
 
 execute unless entity @s[advancements={advhelper:bred_all_animals={sheep=true}}] run tellraw @s {"text":"- Sheep","color":"red"}
+
+execute unless entity @s[advancements={advhelper:bred_all_animals={sniffer=true}}] run tellraw @s {"text":"- Sniffer","color":"red"}
 
 execute unless entity @s[advancements={advhelper:bred_all_animals={strider=true}}] run tellraw @s {"text":"- Strider","color":"red"}
 
